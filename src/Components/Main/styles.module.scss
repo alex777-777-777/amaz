@@ -1,0 +1,105 @@
+.Main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/amazon-2661423.webp"),
+    url("../../assets/images/bg.png");
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+.right_continer {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  border-left: solid 1px rgba(255, 255, 255, 0.37);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    85deg,
+    rgba(0, 0, 0, 0.21612394957983194) 16%,
+    rgba(0, 0, 0, 0.836) 70%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  position: relative;
+  padding: 10px;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.bgvideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -90px;
+}
+.bonus {
+  color: #ffd338;
+  background-color: rgba(0, 0, 0, 0.726);
+  position: relative;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 19px;
+  padding: 5px;
+}
+.Main_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.103);
+  justify-content: end;
+}
+.text_div {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+.custom_button {
+  width: 200px;
+  height: 50px;
+  background-color: #ffd338;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+}
+.p_bonus {
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 775px) {
+  .right_continer {
+    background: rgba(0, 0, 0, 0.404);
+  }
+}
+@media screen and (max-width: 500px) {
+  .Main {
+    min-height: 100vh;
+    background-size: contain, cover;
+  }
+
+  .Main_container {
+    position: relative;
+  }
+  .right_continer {
+    background: none;
+    background-size: cover;
+    position: relative;
+    padding: 5px;
+  }
+  .text_div {
+    margin-top: 80px;
+    color: white;
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 21px;
+    }
+  }
+}

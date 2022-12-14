@@ -1,0 +1,20 @@
+.tnk {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/amazonBG.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.356);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}

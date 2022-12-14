@@ -1,0 +1,19 @@
+.QuizPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  animation: fadeInAnimation 1s linear;
+
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
