@@ -21,7 +21,7 @@ export const postToGoogleSheet = (d) => {
 };
 
 export const postDataToCRM = (d) => {
-  const url = `https://frnkaffs-api.com/api/v2/lead`;
+  const url = `https://frnkaffs-api.com/api/v2/leads`;
   const password = uid();
   const data = {
     email: d.email,
