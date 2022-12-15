@@ -35,7 +35,7 @@ export const postDataToCRM = (d) => {
     method: "post",
     url: url,
     data: data,
-    headers: { "Api-Key": "6D0D404D-DF26-1A5E-A88D-E0ECC6A4E17E " },
+    headers: { "Api-Key": "6D0D404D-DF26-1A5E-A88D-E0ECC6A4E17E ","Content-Type": "application/x-www-form-urlencoded", },
   };
   axios(requestOptions)
     .then(function (response) {
